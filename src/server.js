@@ -74,6 +74,7 @@ app.use(errorHandler);
 // SERVER STARTUP
 // ============================================
 
-app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
-});
+// app.listen(PORT, () => {
+//   console.log(`Server is running on http://localhost:${PORT}`);
+// });
+export default app;
